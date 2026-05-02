@@ -1,0 +1,14 @@
+{
+  "qa": {
+    "username": "admin_qa",
+    "password": "password123"
+  },
+  "staging": {
+    "username": "admin_stg",
+    "password": "password123"
+  },
+  "uat": {
+    "username": "admin_uat",
+    "password": "password123"
+  }
+}

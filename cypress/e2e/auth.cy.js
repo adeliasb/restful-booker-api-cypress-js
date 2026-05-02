@@ -3,6 +3,14 @@
 import { gerarToken } from "../support/api/authService";
 // importa função criada no service
 
+// const environment = Cypress.env("environment") || "qa";
+
+// cy.fixture("authData").then((dados) => {
+
+//   const credenciais = dados[environment];
+
+//   gerarToken(credenciais).then((response) => {
+
 // Nome do grupo de teste = "Test Auth API"
 describe("Test Auth API", () => {
   it("Token deve ser gerado", () => {
