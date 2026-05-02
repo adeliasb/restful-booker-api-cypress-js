@@ -11,5 +11,10 @@ module.exports = defineConfig({
 
     baseUrl: "https://restful-booker.herokuapp.com",
     // URL base da API (evita repetir URL em todas as chamadas)
+    // defaultCommandTimeout: 0, // Tempo para comandos do Cypress na UI (espera elemento aparecer)
+    //cy.get('.btn') usado em get, should, contains
+
+    requestTimeout: 0, // sem limite para iniciar request
+    responseTimeout: 0, // sem limite global de resposta
   },
 });
