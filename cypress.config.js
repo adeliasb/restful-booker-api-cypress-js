@@ -14,7 +14,7 @@ module.exports = defineConfig({
     // defaultCommandTimeout: 0, // Tempo para comandos do Cypress na UI (espera elemento aparecer)
     //cy.get('.btn') usado em get, should, contains
 
-    requestTimeout: 0, // sem limite para iniciar request
-    responseTimeout: 0, // sem limite global de resposta
+    requestTimeout: 3, // sem limite para iniciar request
+    responseTimeout: 3, // sem limite global de resposta
   },
 });
