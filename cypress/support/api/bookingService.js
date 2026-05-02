@@ -6,6 +6,7 @@ export function criarBooking(body) {
     method: "POST",
     url: "/booking",
     body: body,
+    responseTimeout: 5000, // define timeout aqui
   });
 }
 
